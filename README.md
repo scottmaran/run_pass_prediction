@@ -11,5 +11,10 @@ Richard Anderson with Open Source Football estimates the probability of a QB Dro
 - Number of timeouts for the offense and defense
 With 100K training examples from 2016-2019, he gets 69.1% accuracy.
 
+### Further Thoughts 
+
+#### RPO
+Only 2.8% of plays had the OPTION feature designated as true. And out of all of those instances, every play was a run. Thus I just left them in and treated them as runs.
+
 ### Sources 
 1) [Open Source Football](https://opensourcefootball.com/posts/2020-09-07-estimating-runpass-tendencies-with-tidymodels-and-nflfastr/)

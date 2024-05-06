@@ -19,6 +19,7 @@ Game Context:
     'OFFTEAM' (maybe, do we have the sample size for it)
 Engineered Context:
     Yards_to_first_down
+    How good the opponent and offensive team are at running and passing 
 Tendencies:
 
 

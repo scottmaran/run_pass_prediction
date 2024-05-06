@@ -1,0 +1,36 @@
+##### MODEL INFO #####
+Base model with no engineered features, only using data readily available in dataset. Using features: 
+           'WEEK', 'QUARTER','SCOREDIFFERENTIAL', 'SCORE','DISTANCE','DOWN','FIELDPOSITION','DRIVE','DRIVEPLAY',           'OFFTIMEOUTSREMAINING','DEFTIMEOUTSREMAINING','HASH','2MINUTE', CLOCK_INT'. 
+Best Val error = 0.30639563708477935
+Best Val logloss = 0.5499644363996234
+Best Val AUC = 0.7624757300955229
+
+------------------ Confusion Matrix for Full Model -----------------
+
+     R    P
+R  459  292
+P  326  940
+              precision    recall  f1-score   support
+
+           R       0.58      0.61      0.60       751
+           P       0.76      0.74      0.75      1266
+
+    accuracy                           0.69      2017
+   macro avg       0.67      0.68      0.68      2017
+weighted avg       0.70      0.69      0.69      2017
+
+
+------------------ TEST DATA Confusion Matrix for Full Model -----------------
+
+     R    P
+R  462  259
+P  307  819
+              precision    recall  f1-score   support
+
+           R       0.60      0.64      0.62       721
+           P       0.76      0.73      0.74      1126
+
+    accuracy                           0.69      1847
+   macro avg       0.68      0.68      0.68      1847
+weighted avg       0.70      0.69      0.70      1847
+
