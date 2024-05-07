@@ -1,10 +1,5 @@
 
 
-Feature Ideas:
-    - close to 2 minute warning
-    - game score
-
-    - route tendencies for players on field?
 Results:
     - Feature Importance
         - How much does multicollinearity affect features
@@ -19,5 +14,8 @@ XGBoost model:
 - ensemble model consisting of Classification adn Regresstion Trees (CART). 
 Each leave is assigned a score, as opposed to a decision value
 
-
-Links:
+To Do:
+- Write up intro stuff
+- Inspect outputs
+- Read about feature Importance
+- Write analysis/football relation of features
