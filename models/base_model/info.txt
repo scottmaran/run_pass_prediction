@@ -1,36 +1,40 @@
 ##### MODEL INFO #####
-Base model with no engineered features, only using data readily available in dataset. Using features: 
-           'WEEK', 'QUARTER','SCOREDIFFERENTIAL', 'SCORE','DISTANCE','DOWN','FIELDPOSITION','DRIVE','DRIVEPLAY',           'OFFTIMEOUTSREMAINING','DEFTIMEOUTSREMAINING','HASH','2MINUTE', CLOCK_INT'. 
-Best Val error = 0.30639563708477935
-Best Val logloss = 0.5499644363996234
-Best Val AUC = 0.7624757300955229
+Base model with no engineered features, only using data readily available in dataset
+Input features: ['WEEK' 'QUARTER' 'SCOREDIFFERENTIAL' 'SCORE' 'DISTANCE' 'DOWN'
+ 'FIELDPOSITION' 'DRIVE' 'DRIVEPLAY' 'OFFTIMEOUTSREMAINING'
+ 'DEFTIMEOUTSREMAINING' 'HASH' 'SPOTLEFT' '2MINUTE' 'CLOCK_INT']
+Best Params = {'max_depth': 13, 'learning_rate': 0.04112464048393793, 'n_estimators': 1250, 'subsample': 0.8, 'min_child_weight': 8}
+Best Val error = 0.3027431421446384
+Best Val logloss = 0.5569929165658808
+Best Val AUC = 0.7692167050759824
 
 ------------------ Confusion Matrix for Full Model -----------------
 
-     R    P
-R  459  292
-P  326  940
+     R     P
+R  364   385
+P  222  1034
               precision    recall  f1-score   support
 
-           R       0.58      0.61      0.60       751
-           P       0.76      0.74      0.75      1266
+           R       0.62      0.49      0.55       749
+           P       0.73      0.82      0.77      1256
 
-    accuracy                           0.69      2017
-   macro avg       0.67      0.68      0.68      2017
-weighted avg       0.70      0.69      0.69      2017
+    accuracy                           0.70      2005
+   macro avg       0.67      0.65      0.66      2005
+weighted avg       0.69      0.70      0.69      2005
 
+Test Accuracy = 0.6952743074416078
 
 ------------------ TEST DATA Confusion Matrix for Full Model -----------------
 
      R    P
-R  462  259
-P  307  819
+R  351  368
+P  193  929
               precision    recall  f1-score   support
 
-           R       0.60      0.64      0.62       721
-           P       0.76      0.73      0.74      1126
+           R       0.65      0.49      0.56       719
+           P       0.72      0.83      0.77      1122
 
-    accuracy                           0.69      1847
-   macro avg       0.68      0.68      0.68      1847
-weighted avg       0.70      0.69      0.70      1847
+    accuracy                           0.70      1841
+   macro avg       0.68      0.66      0.66      1841
+weighted avg       0.69      0.70      0.69      1841
 
