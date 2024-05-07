@@ -28,6 +28,7 @@ We consider the naive baseline as the simple heuristic of always predicting a pa
 | Continuous Features Model: | 69.73% | 69.63%   | 
 | Teams Included Model: | 69.88% | 69.04%   | 
 | All Features Model: | 70.53% | 70.07   | 
+| Fully Tuned All Features Model: | 71.33% | 71.81   | 
 
 ### Feature Importance 
 

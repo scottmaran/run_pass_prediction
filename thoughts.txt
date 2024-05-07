@@ -15,4 +15,9 @@ Results:
 Future to do:
     - Turn into a sequence problem. Not as interpretable though.
 
+XGBoost model:
+- ensemble model consisting of Classification adn Regresstion Trees (CART). 
+Each leave is assigned a score, as opposed to a decision value
+
+
 Links:
