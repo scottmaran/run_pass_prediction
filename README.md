@@ -1,4 +1,10 @@
 
+## Exploratory Data Analysis
+Notable tendencies:
+- Pass 61.2% of the time
+- Pass 74.1% of the time during 2Minute drills
+
+![pass rate by field position](images/pass_rate_by_field_pos_line_chart.png)
 
 ## Prior Work
 Richard Anderson with Open Source Football estimates the probability of a QB Dropback with an XGBoost model using the features:
