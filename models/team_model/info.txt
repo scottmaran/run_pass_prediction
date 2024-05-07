@@ -1,0 +1,117 @@
+##### MODEL INFO #####
+Features include team indicators
+Input features: ['DefTeam' 'OffTeam' 'WEEK' 'QUARTER' 'SCOREDIFFERENTIAL' 'SCORE'
+ 'DISTANCE' 'DOWN' 'FIELDPOSITION' 'DRIVE' 'DRIVEPLAY'
+ 'OFFTIMEOUTSREMAINING' 'DEFTIMEOUTSREMAINING' 'HASH' 'SPOTLEFT' '2MINUTE'
+ 'CLOCK_INT' 'prev_FORCEDFUMBLE' 'prev_HIT' 'prev_HURRY'
+ 'prev_GAINLOSSNET' 'prev_INTERCEPTION' 'prev_NOHUDDLE' 'prev_PENALTY'
+ 'prev_PASSDEPTH' 'prev_PASSBREAKUP' 'prev_DROPBACKDEPTH'
+ 'prev_MOFO_PLAYED' 'prev_MOFO_SHOWN' 'prev_DEFPERSONNEL_num_linemen'
+ 'prev_DEFPERSONNEL_num_linebackers'
+ 'prev_DEFPERSONNEL_num_defensivebacks' 'prev_PISTOL' 'prev_PLAYACTION'
+ 'prev_SACK' 'prev_SCREEN' 'prev_SHIFTMOTION' 'prev_SHOTGUN'
+ 'prev_QBMOVEDOFFSPOT' 'prev_QBPRESSURE' 'prev_TIMETOPRESSURE'
+ 'prev_TIMETOTHROW' 'prev_YARDSAFTERCATCH' 'prev_YARDSAFTERCONTACT'
+ 'game_prev_FORCEDFUMBLE' 'game_prev_HIT' 'game_prev_HURRY'
+ 'game_prev_GAINLOSSNET' 'game_prev_INTERCEPTION' 'game_prev_NOHUDDLE'
+ 'game_prev_PENALTY' 'game_prev_PASSDEPTH' 'game_prev_PASSBREAKUP'
+ 'game_prev_DROPBACKDEPTH' 'game_prev_MOFO_PLAYED' 'game_prev_MOFO_SHOWN'
+ 'game_prev_DEFPERSONNEL_num_linemen'
+ 'game_prev_DEFPERSONNEL_num_linebackers'
+ 'game_prev_DEFPERSONNEL_num_defensivebacks' 'game_prev_PISTOL'
+ 'game_prev_PLAYACTION' 'game_prev_SACK' 'game_prev_SCREEN'
+ 'game_prev_SHIFTMOTION' 'game_prev_SHOTGUN' 'game_prev_QBMOVEDOFFSPOT'
+ 'game_prev_QBPRESSURE' 'game_prev_TIMETOPRESSURE' 'game_prev_TIMETOTHROW'
+ 'game_prev_YARDSAFTERCATCH' 'game_prev_YARDSAFTERCONTACT'
+ 'historical_prev_FORCEDFUMBLE' 'historical_prev_HIT'
+ 'historical_prev_HURRY' 'historical_prev_GAINLOSSNET'
+ 'historical_prev_INTERCEPTION' 'historical_prev_NOHUDDLE'
+ 'historical_prev_PENALTY' 'historical_prev_PASSDEPTH'
+ 'historical_prev_PASSBREAKUP' 'historical_prev_DROPBACKDEPTH'
+ 'historical_prev_MOFO_PLAYED' 'historical_prev_MOFO_SHOWN'
+ 'historical_prev_DEFPERSONNEL_num_linemen'
+ 'historical_prev_DEFPERSONNEL_num_linebackers'
+ 'historical_prev_DEFPERSONNEL_num_defensivebacks'
+ 'historical_prev_PISTOL' 'historical_prev_PLAYACTION'
+ 'historical_prev_SACK' 'historical_prev_SCREEN'
+ 'historical_prev_SHIFTMOTION' 'historical_prev_SHOTGUN'
+ 'historical_prev_QBMOVEDOFFSPOT' 'historical_prev_QBPRESSURE'
+ 'historical_prev_TIMETOPRESSURE' 'historical_prev_TIMETOTHROW'
+ 'historical_prev_YARDSAFTERCATCH' 'historical_prev_YARDSAFTERCONTACT'
+ 'prev_OFFPERSONNEL_SIMPLIFIED' 'prev_CENTERPASSBLOCKDIRECTION'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_11'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_21'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_12'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_22'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_01'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_02'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_13'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_10'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_20'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_23'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_3+'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_03'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_nan'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_00'
+ 'game_prev_OFFPERSONNEL_SIMPLIFIED_14'
+ 'game_prev_CENTERPASSBLOCKDIRECTION_L'
+ 'game_prev_CENTERPASSBLOCKDIRECTION_C'
+ 'game_prev_CENTERPASSBLOCKDIRECTION_R'
+ 'game_prev_CENTERPASSBLOCKDIRECTION_nan'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_11'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_21'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_12'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_22'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_01'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_02'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_13'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_10'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_20'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_23'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_3+'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_03'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_nan'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_00'
+ 'historical_prev_OFFPERSONNEL_SIMPLIFIED_14'
+ 'historical_prev_CENTERPASSBLOCKDIRECTION_L'
+ 'historical_prev_CENTERPASSBLOCKDIRECTION_C'
+ 'historical_prev_CENTERPASSBLOCKDIRECTION_R'
+ 'historical_prev_CENTERPASSBLOCKDIRECTION_nan'
+ 'historical_yards_per_carry' 'historical_yards_per_pass_attempt'
+ 'historical_yards_allowed_per_carry'
+ 'historical_yards_allowed_per_pass_attempt']
+Best Params = {'max_depth': 5, 'learning_rate': 0.4971570374261376, 'n_estimators': 1050, 'subsample': 0.8, 'min_child_weight': 7}
+Best Val error = 0.3012468827930175
+Best Val logloss = 0.556109169853893
+Best Val AUC = 0.7628063532693272
+
+------------------ Confusion Matrix for Full Model -----------------
+
+     R    P
+R  412  337
+P  267  989
+              precision    recall  f1-score   support
+
+           R       0.61      0.55      0.58       749
+           P       0.75      0.79      0.77      1256
+
+    accuracy                           0.70      2005
+   macro avg       0.68      0.67      0.67      2005
+weighted avg       0.69      0.70      0.70      2005
+
+Test Accuracy = 0.690385659967409
+
+------------------ TEST DATA Confusion Matrix for Full Model -----------------
+
+     R    P
+R  389  330
+P  240  882
+              precision    recall  f1-score   support
+
+           R       0.62      0.54      0.58       719
+           P       0.73      0.79      0.76      1122
+
+    accuracy                           0.69      1841
+   macro avg       0.67      0.66      0.67      1841
+weighted avg       0.69      0.69      0.69      1841
+

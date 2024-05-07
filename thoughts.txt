@@ -7,14 +7,12 @@ Feature Ideas:
     - route tendencies for players on field?
 Results:
     - Feature Importance
+        - How much does multicollinearity affect features
+        - How much do high-level categorical variables get punished?
     - Calibration
     - Prob by Down&Distance
 
 Future to do:
     - Turn into a sequence problem. Not as interpretable though.
 
-To Do:
-1) EDA
-2) Feature Engineering
-3) XGBoost
-
+Links:

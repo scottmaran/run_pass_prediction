@@ -17,6 +17,24 @@ Richard Anderson with Open Source Football estimates the probability of a QB Dro
 - Number of timeouts for the offense and defense
 With 100K training examples from 2016-2019, he gets 69.1% accuracy.
 
+## Results
+
+We consider the naive baseline as the simple heuristic of always predicting a pass - one will be correct around 60-62% of the time.
+
+| Model |  Validation Accuracy | Test Accuracy | 
+| :---------------- | :------: | ----: |
+| Naive Baseline: | 62.64%% | 60.95%%   | 
+| Base Model: | 69.73% | 69.52%    | 
+| Continuous Features Model: | 69.73% | 69.63%   | 
+| Teams Included Model: | 69.88% | 69.04%   | 
+| All Features Model: | 70.53% | 70.07   | 
+
+### Feature Importance 
+
+![Feature Importance of All_Feature_Model](models/all_features_model/feature_importance.png)
+
+### Tree Structure
+
 ### Further Thoughts 
 
 #### Dummy vs One-Hot
