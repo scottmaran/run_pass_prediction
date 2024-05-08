@@ -1,6 +1,5 @@
 ##### MODEL INFO #####
-All features model. Robust tuning. tree_graph_with_teams is the graph where the model is trained with the same hyperparameters but changing 
-the type of variable '2MINUTE' is (int vs category).
+All features model. Robust tuning
 
 Input features: ['WEEK' 'QUARTER' 'SCOREDIFFERENTIAL' 'SCORE' 'DISTANCE' 'DOWN'
  'FIELDPOSITION' 'DRIVE' 'DRIVEPLAY' 'OFFTIMEOUTSREMAINING'

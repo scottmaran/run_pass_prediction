@@ -15,7 +15,6 @@ XGBoost model:
 Each leave is assigned a score, as opposed to a decision value
 
 To Do:
-- Write up intro stuff
 - Inspect outputs
-- Read about feature Importance
+- Add AUC/logless metrics
 - Write analysis/football relation of features
