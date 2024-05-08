@@ -1,4 +1,27 @@
 
+## Further Thoughts 
+
+### Dummy vs One-Hot
+
+In regression important.
+
+What about tree models? Definitely don't have the regression unidentifiable problem, so safer to include all levels.
+
+### RPO
+Only 2.8% of plays had the OPTION feature designated as true. And out of all of those instances, every play was a run. Thus I just left them in and treated them as runs.
+
+### Gain vs Coverage
+Variable selection vs interpretability.
+(Mention here?)
+But also continuous variables not as important in coverage
+
+### Leaf: game_prev_PENALTY < 0.0571
+Addressing this node in the tree structure section would have interrupted the more pertinent discussion around the features with the highest importance, but I did want to bring this up. (EXPLAIN WHY LESS SIGNIFICANT)
+
+If there is a penalty called, it is three times as likely for the play to have been a pass than a run in our dataset. Thus I think the model may be trying to pick up that, if the team has been committing a lot of penalties in the game, then they may be throwing the ball more often than average. Thus if the offensive team's penalty rate during the game is above the threshold, the score is more positive than if it were below the threshold.
+
+But again, this is on the margin (REWORD).
+
 
 Results:
     - Feature Importance
